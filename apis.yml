@@ -1,7 +1,32 @@
 aid: ai-fleet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ai-fleet.png
 name: AI Fleet
-description: AI Fleet is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aifleet (aifleet.com) is a technology-driven, full-stack trucking carrier
+  founded in 2020 and headquartered in Austin, Texas. The company describes
+  itself as the first full-stack, AI-driven carrier, pairing company drivers
+  with proprietary AI algorithms and its own Transportation Management System
+  (TMS) to optimize truck utilization, routing, load matching, fuel usage, and
+  scheduling across the roughly $400B U.S. freight sector. Aifleet emphasizes a
+  driver-centric model — better pay, predictable schedules, and reduced wait
+  times — alongside shipper-facing services with proactive tracking updates and
+  predictive ETAs. It has raised roughly $50M since founding (Series A 2021,
+  venture round 2023, Series B 2024) from investors including Obvious Ventures,
+  Ibex Investors, Volvo Group Venture Capital, Compound, and Heron Rock. Aifleet
+  is a logistics service provider rather than a developer-facing API platform;
+  as of this profile it publishes no public API, developer portal, SDKs, or
+  OpenAPI definition.
 url: https://raw.githubusercontent.com/api-evangelist/ai-fleet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +39,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Trucking
+- Logistics
+- Freight
+- Transportation
+- Supply Chain
+- FreightTech
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://theaifleet.com
+  url: https://aifleet.com
+- type: About
+  url: https://aifleet.com/about
+- type: Blog
+  url: https://aifleet.com/insights
+- type: Support
+  url: https://aifleet.com/faqs
+- type: PrivacyPolicy
+  url: https://aifleet.com/privacy
+- type: DomainSecurity
+  url: security/ai-fleet-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
