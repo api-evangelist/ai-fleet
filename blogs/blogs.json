@@ -2,6 +2,13 @@
   "repo": "ai-fleet",
   "feeds": [
     {
+      "source": "https://aifleet.com/insights",
+      "feed_url": "https://aifleet.com/insights",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://aifleet.com/about",
       "feed_url": "https://aifleet.com/about",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
